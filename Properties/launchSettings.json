@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AdvanceGame": {
+      "commandName": "Project",
+      "commandLineArgs": "This is command line "
+    }
+  }
+}
