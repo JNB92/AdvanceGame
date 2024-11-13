@@ -54,12 +54,12 @@ internal static class Program
             }
 
             // Make a move
-            gameBoard.MakeMove(player);
+            GameLogic.MakeMove(player);
 
             // Write the board to the output file
             try
             {
-                gameBoard.WriteToNewFile(outputBoardPath);
+                GameLogic.WriteToNewFile(outputBoardPath);
             }
             catch (Exception ex)
             {

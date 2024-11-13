@@ -30,7 +30,7 @@ public class General : Piece
             foreach (var move in validMoves)
             {
                 var tempBoard = new Board(board);
-                tempBoard.MovePiece(startX, startY, move.Item1, move.Item2);
+                GameLogic.MovePiece(startX, startY, move.Item1, move.Item2);
                 if (tempGeneral.IsInDanger(tempBoard, move.Item1, move.Item2)) continue;
 
                 return move;
